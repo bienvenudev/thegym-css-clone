@@ -35,6 +35,13 @@
 }
 
 .wrapper {
-  max-width: 90%;
+  max-width: 95%;
   margin-inline: auto;
+}
+
+@media (min-width: 1000px) {
+  .wrapper {
+    max-width: 90%;
+    margin-inline: auto;
+  }
 }
