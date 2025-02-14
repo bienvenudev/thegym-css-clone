@@ -6,7 +6,359 @@
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
-  <body>
-    <h1 class="text-3xl font-bold underline text-avocado-400">Hello world!</h1>
+  <body class="font-default">
+    <header>
+      <!-- Mobile header -->
+      <div class="bg-[#0c2340] h-16">
+        <div>
+          <!-- <a
+            href="/"
+            accesskey="1"
+            id="site-header-link"
+            class="shine-false"
+            title="Homepage shortcut key = 1"
+          >
+            <svg id="mark-header" class="mark mark-header" style="">
+              <use
+                xmlns:xlink="https://www.w3.org/1999/xlink"
+                xlink:href="#icon-mark"
+              ></use>
+            </svg>
+            University of Notre Dame
+          </a> -->
+          <a href="/" class="text-white"> University of Notre Dame</a>
+        </div>
+      </div>
+
+      <nav>
+        <div class="bg-white text-brand-blue">
+          <ul class="flex p-4 justify-around">
+            <li>
+              <span>
+                <svg
+                  viewBox="0 0 16 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M8 0L0 6V8H1V15H4V10H7V15H15V8H16V6L14 4.5V1H11V2.25L8 0ZM9 10H12V13H9V10Z"
+                      fill="#000000"
+                    ></path>
+                  </g>
+                </svg>
+              </span>
+              Home
+            </li>
+            <li>
+              <span>
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      d="M4 18L9 12M20 18L15 12M3 8L10.225 12.8166C10.8665 13.2443 11.1872 13.4582 11.5339 13.5412C11.8403 13.6147 12.1597 13.6147 12.4661 13.5412C12.8128 13.4582 13.1335 13.2443 13.775 12.8166L21 8M6.2 19H17.8C18.9201 19 19.4802 19 19.908 18.782C20.2843 18.5903 20.5903 18.2843 20.782 17.908C21 17.4802 21 16.9201 21 15.8V8.2C21 7.0799 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V15.8C3 16.9201 3 17.4802 3.21799 17.908C3.40973 18.2843 3.71569 18.5903 4.09202 18.782C4.51984 19 5.07989 19 6.2 19Z"
+                      stroke="#000000"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </g>
+                </svg>
+              </span>
+              Contact
+            </li>
+            <li>
+              <span>
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      d="M15.7955 15.8111L21 21M18 10.5C18 14.6421 14.6421 18 10.5 18C6.35786 18 3 14.6421 3 10.5C3 6.35786 6.35786 3 10.5 3C14.6421 3 18 6.35786 18 10.5Z"
+                      stroke="#000000"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </g>
+                </svg>
+              </span>
+              Search
+            </li>
+            <li>
+              <span>
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <g id="Menu / Menu_Duo_LG">
+                      <path
+                        id="Vector"
+                        d="M3 15H21M3 9H21"
+                        stroke="#000000"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></path>
+                    </g>
+                  </g>
+                </svg>
+              </span>
+              Menu
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section
+        class="bg-[url(images/campus_spring_scenic-800.webp)] h-[100vh] bg-no-repeat bg-cover"
+      >
+        <div class="px-4 h-full w-full">
+          <div
+            class="w-full h-full flex flex-col items-center gap-4 text-white text-center"
+          >
+            <h1 class="text-6xl mt-4 max-w-[300px]">
+              What Would You Fight For?
+            </h1>
+            <p class="w-[80%]">
+              Notre Dame attracts people willing to take action to find
+              solutions to humanity's most pressing challenges. "What would you
+              fight for?" For us, it's not a question. It's a call to action. We
+              are the Fighting Irish.
+            </p>
+            <a href="/" class="py-3 px-4 bg-white text text-brand-blue"
+              >What would you fight for?</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- Features Section -->
+      <section class="lg:flex w-[90%] m-[0_auto] py-4">
+        <article class="">
+          <a href="/">
+            <div class="">
+              <img src="images/globering_2025_1.jpg" alt="" />
+            </div>
+            <div class="flex items-end">
+              <div>
+                <p class="uppercase text-gray-400 mt-4 mb-2">University</p>
+                <p class="text-brand-blue">
+                  University of Notre Dame wins award for excellence in campus
+                  internationalization
+                </p>
+              </div>
+              <span>
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      d="M9 6L15 12L9 18"
+                      stroke="#8c7535"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </g>
+                </svg>
+              </span>
+            </div>
+          </a>
+        </article>
+        <div>
+          <article class="mt-10">
+            <a href="/">
+              <div class="flex items-center">
+                <div>
+                  <p class="uppercase text-gray-400 mt-4 mb-2 text-[.875rem]">
+                    University
+                  </p>
+                  <p class="text-brand-blue text-2xl">
+                    University of Notre Dame wins award for excellence in campus
+                    internationalization
+                  </p>
+                </div>
+                <span>
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <path
+                        d="M9 6L15 12L9 18"
+                        stroke="#8c7535"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></path>
+                    </g>
+                  </svg>
+                </span>
+              </div>
+            </a>
+          </article>
+          <article class="mt-10">
+            <a href="/">
+              <div class="flex items-end">
+                <div>
+                  <p class="uppercase text-gray-400 mt-4 mb-2">University</p>
+                  <p class="text-brand-blue">
+                    University of Notre Dame wins award for excellence in campus
+                    internationalization
+                  </p>
+                </div>
+                <span>
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <path
+                        d="M9 6L15 12L9 18"
+                        stroke="#8c7535"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></path>
+                    </g>
+                  </svg>
+                </span>
+              </div>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <!-- Pillars Section -->
+      <section>
+        <div class="bg-brand-blue text-white">
+          <div class="grid">
+            <div class="mb-3.5">
+              <!-- <div class="border-[rgba(255,255,255,.6)] border-[1px] border-s-[style:solid]"></div> -->
+              <picture>
+                <source
+                  media="(min-width: 1600px)"
+                  srcset="images/pillar-research-1600.jpg"
+                />
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="images/pillar-research-1200.jpg"
+                />
+                <source
+                  media="(min-width: 800px)"
+                  srcset="images/pillar-research-800.jpg"
+                />
+                <img
+                  src="images/pillar-research-800.jpg"
+                  class="w-full"
+                  alt=""
+                />
+              </picture>
+            </div>
+            <div class="p-4 md:pt-8 md:px-12 lg:px-16">
+              <div class="mb-2 text-gray-300 text-sm uppercase">Research</div>
+              <h2 class="mb-4 text-3xl font-bold font-heading">
+                The Opportunity of Inquiry
+              </h2>
+              <div class="w-[50px] h-1 mt-3 mb-7 bg-brand-gold"></div>
+              <p class="mb-4">
+                For scholars who share a common passion for inquiry because of
+                what it can reveal about our world and ourselves, there is
+                opportunity here.
+              </p>
+              <a
+                href="/"
+                class="flex items-center text-lg justify-end pt-4 pb-7"
+                >Research at ND
+                <span>
+                  <svg
+                    width="18px"
+                    height="18px"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <path
+                        d="M9 6L15 12L9 18"
+                        stroke="#8c7535"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></path>
+                    </g>
+                  </svg>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
