@@ -170,16 +170,19 @@
       </section>
 
       <!-- Features Section -->
-      <section class="lg:flex w-[90%] m-[0_auto] py-4">
-        <article class="">
+      <section class="lg:grid lg:grid-cols-3 lg:gap-4 wrapper py-4">
+        <!-- 1st feature -->
+        <article>
           <a href="/">
             <div class="">
-              <img src="images/globering_2025_1.jpg" alt="" />
+              <img src="images/globering_2025.jpg" alt="" />
             </div>
-            <div class="flex items-end">
-              <div>
-                <p class="uppercase text-gray-400 mt-4 mb-2">University</p>
-                <p class="text-brand-blue">
+            <div class="flex items-end mt-4 lg:mb-12">
+              <div class="mx-12">
+                <p class="uppercase text-gray-400 mt-4 mb-2 text-[.875rem]">
+                  University
+                </p>
+                <p class="text-brand-blue text-2xl">
                   University of Notre Dame wins award for excellence in campus
                   internationalization
                 </p>
@@ -210,88 +213,95 @@
             </div>
           </a>
         </article>
-        <div>
-          <article class="mt-10">
-            <a href="/">
-              <div class="flex items-center">
-                <div>
-                  <p class="uppercase text-gray-400 mt-4 mb-2 text-[.875rem]">
-                    University
-                  </p>
-                  <p class="text-brand-blue text-2xl">
-                    University of Notre Dame wins award for excellence in campus
-                    internationalization
-                  </p>
-                </div>
-                <span>
-                  <svg
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                    <g
-                      id="SVGRepo_tracerCarrier"
+
+        <!-- 2nd feature -->
+        <article class="mt-10">
+          <a href="/">
+            <div class="flex items-center">
+              <div class="mx-12">
+                <p class="uppercase text-gray-400 mt-4 mb-2 text-[.875rem]">
+                  University
+                </p>
+                <p class="text-brand-blue text-2xl">
+                  University of Notre Dame wins award for excellence in campus
+                  internationalization
+                </p>
+              </div>
+              <span>
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      d="M9 6L15 12L9 18"
+                      stroke="#8c7535"
+                      stroke-width="2"
                       stroke-linecap="round"
                       stroke-linejoin="round"
-                    ></g>
-                    <g id="SVGRepo_iconCarrier">
-                      <path
-                        d="M9 6L15 12L9 18"
-                        stroke="#8c7535"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      ></path>
-                    </g>
-                  </svg>
-                </span>
+                    ></path>
+                  </g>
+                </svg>
+              </span>
+            </div>
+          </a>
+        </article>
+
+        <!-- 3rd feature -->
+        <article class="mt-10 mb-10">
+          <a href="/">
+            <div class="flex items-end">
+              <div class="mx-12">
+                <p class="uppercase text-gray-400 mt-4 mb-2 text-[.875rem]">
+                  University
+                </p>
+                <p class="text-brand-blue text-2xl">
+                  University of Notre Dame wins award for excellence in campus
+                  internationalization
+                </p>
               </div>
-            </a>
-          </article>
-          <article class="mt-10">
-            <a href="/">
-              <div class="flex items-end">
-                <div>
-                  <p class="uppercase text-gray-400 mt-4 mb-2">University</p>
-                  <p class="text-brand-blue">
-                    University of Notre Dame wins award for excellence in campus
-                    internationalization
-                  </p>
-                </div>
-                <span>
-                  <svg
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                    <g
-                      id="SVGRepo_tracerCarrier"
+              <span>
+                <svg
+                  width="36px"
+                  height="36px"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      d="M9 6L15 12L9 18"
+                      stroke="#8c7535"
+                      stroke-width="2"
                       stroke-linecap="round"
                       stroke-linejoin="round"
-                    ></g>
-                    <g id="SVGRepo_iconCarrier">
-                      <path
-                        d="M9 6L15 12L9 18"
-                        stroke="#8c7535"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      ></path>
-                    </g>
-                  </svg>
-                </span>
-              </div>
-            </a>
-          </article>
-        </div>
+                    ></path>
+                  </g>
+                </svg>
+              </span>
+            </div>
+          </a>
+        </article>
       </section>
 
       <!-- Pillars Section -->
       <section>
         <div class="bg-brand-blue text-white">
-          <div class="grid">
+          <!-- 1st pillar -->
+          <div class="md:grid md:grid-cols-2">
             <div class="mb-3.5">
               <!-- <div class="border-[rgba(255,255,255,.6)] border-[1px] border-s-[style:solid]"></div> -->
               <picture>
@@ -309,7 +319,7 @@
                 />
                 <img
                   src="images/pillar-research-800.jpg"
-                  class="w-full"
+                  class="w-full h-full object-cover"
                   alt=""
                 />
               </picture>
@@ -357,6 +367,285 @@
               </a>
             </div>
           </div>
+
+          <!-- 2nd pillar -->
+          <div class="md:grid md:grid-cols-2 md:my-8">
+            <div class="mb-3.5 order-2">
+              <!-- <div class="border-[rgba(255,255,255,.6)] border-[1px] border-s-[style:solid]"></div> -->
+              <picture>
+                <source
+                  media="(min-width: 1600px)"
+                  srcset="images/pillar-research-1600.jpg"
+                />
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="images/pillar-research-1200.jpg"
+                />
+                <source
+                  media="(min-width: 800px)"
+                  srcset="images/pillar-research-800.jpg"
+                />
+                <img
+                  src="images/pillar-research-800.jpg"
+                  class="w-full h-full object-cover"
+                  alt=""
+                />
+              </picture>
+            </div>
+            <div class="p-4 md:pt-8 md:px-12 lg:px-16">
+              <div class="mb-2 text-gray-300 text-sm uppercase">Research</div>
+              <h2 class="mb-4 text-3xl font-bold font-heading">
+                The Opportunity of Inquiry
+              </h2>
+              <div class="w-[50px] h-1 mt-3 mb-7 bg-brand-gold"></div>
+              <p class="mb-4">
+                For scholars who share a common passion for inquiry because of
+                what it can reveal about our world and ourselves, there is
+                opportunity here.
+              </p>
+              <a
+                href="/"
+                class="flex items-center text-lg justify-end pt-4 pb-7"
+                >Research at ND
+                <span>
+                  <svg
+                    width="18px"
+                    height="18px"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <path
+                        d="M9 6L15 12L9 18"
+                        stroke="#8c7535"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></path>
+                    </g>
+                  </svg>
+                </span>
+              </a>
+            </div>
+          </div>
+
+          <!-- 3rd pillar -->
+          <div class="md:grid md:grid-cols-2">
+            <div class="mb-3.5">
+              <!-- <div class="border-[rgba(255,255,255,.6)] border-[1px] border-s-[style:solid]"></div> -->
+              <picture>
+                <source
+                  media="(min-width: 1600px)"
+                  srcset="images/pillar-research-1600.jpg"
+                />
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="images/pillar-research-1200.jpg"
+                />
+                <source
+                  media="(min-width: 800px)"
+                  srcset="images/pillar-research-800.jpg"
+                />
+                <img
+                  src="images/pillar-research-800.jpg"
+                  class="w-full h-full object-cover"
+                  alt=""
+                />
+              </picture>
+            </div>
+            <div class="p-4 md:pt-8 md:px-12 lg:px-16">
+              <div class="mb-2 text-gray-300 text-sm uppercase">Research</div>
+              <h2 class="mb-4 text-3xl font-bold font-heading">
+                The Opportunity of Inquiry
+              </h2>
+              <div class="w-[50px] h-1 mt-3 mb-7 bg-brand-gold"></div>
+              <p class="mb-4">
+                For scholars who share a common passion for inquiry because of
+                what it can reveal about our world and ourselves, there is
+                opportunity here.
+              </p>
+              <a
+                href="/"
+                class="flex items-center text-lg justify-end pt-4 pb-7"
+                >Research at ND
+                <span>
+                  <svg
+                    width="18px"
+                    height="18px"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <path
+                        d="M9 6L15 12L9 18"
+                        stroke="#8c7535"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></path>
+                    </g>
+                  </svg>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- News Section -->
+      <section class="pt-8 wrapper">
+        <!-- News header -->
+        <div class="md:flex md:justify-between">
+          <div class="mb-7">
+            <h2 class="mb-2 text-gray-primary text-sm uppercase">
+              University News
+            </h2>
+            <p class="mb-4 text-3xl font-bold font-heading text-brand-blue">
+              Notre Dame At Work
+            </p>
+            <div class="w-[50px] h-1 mt-3 mb-7 bg-brand-gold"></div>
+          </div>
+
+          <a class="flex items-center p-4 text-brand-blue" href="/"
+            >View all news
+            <span>
+              <svg
+                width="16px"
+                height="16px"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <path
+                    d="M9 6L15 12L9 18"
+                    stroke="#8c7535"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                </g>
+              </svg>
+            </span>
+          </a>
+        </div>
+
+        <!-- 1st news card -->
+        <article class="lg:bg-sky-blue-light">
+          <a href="/" class="lg:flex lg:gap-4">
+            <div class="">
+              <img src="images/globering_2025.jpg" alt="" />
+            </div>
+            <div>
+              <div class="flex items-center mt-4 lg:mb-12">
+                <div class="mx-12">
+                  <p class="uppercase text-gray-400 mt-4 mb-2 text-[.875rem]">
+                    University
+                  </p>
+                  <p class="text-brand-blue text-2xl">
+                    University of Notre Dame wins award for excellence in campus
+                    internationalization
+                  </p>
+                </div>
+                <span class="lg:hidden">
+                  <svg
+                    width="36px"
+                    height="36px"
+                    viewBox="0 0 24.00 24.00"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke="#CCCCCC"
+                      stroke-width="0.24000000000000005"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <path
+                        d="M9 6L15 12L9 18"
+                        stroke="#8c7535"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></path>
+                    </g>
+                  </svg>
+                </span>
+              </div>
+              <!-- <a href="/">Read Article</a> -->
+            </div>
+          </a>
+        </article>
+
+        <!-- Community news -->
+        <div class="lg:flex">
+          <div>
+            <article class="mt-10 mb-10">
+              <a href="/">
+                <div class="flex items-end">
+                  <div class="mx-12">
+                    <p class="uppercase text-gray-400 mt-4 mb-2 text-[.875rem]">
+                      University
+                    </p>
+                    <p class="text-brand-blue text-2xl">
+                      University of Notre Dame wins award for excellence in campus
+                      internationalization
+                    </p>
+                  </div>
+                  <span>
+                    <svg
+                      width="36px"
+                      height="36px"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                      <g
+                        id="SVGRepo_tracerCarrier"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></g>
+                      <g id="SVGRepo_iconCarrier">
+                        <path
+                          d="M9 6L15 12L9 18"
+                          stroke="#8c7535"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></path>
+                      </g>
+                    </svg>
+                  </span>
+                </div>
+              </a>
+            </article>
+            <article></article>
+          </div>
+          <article></article>
         </div>
       </section>
     </main>
