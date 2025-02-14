@@ -27,13 +27,6 @@
   --anim-ease: ease-in-out;
 }
 
-@media (max-width: 900px) {
-  nav svg {
-    height: 32px;
-    width: 32px;
-  }
-}
-
 .wrapper {
   max-width: 95%;
   margin-inline: auto;
