@@ -209,7 +209,7 @@
           </div>
           <nav>
             <ul
-              class="bg-white p-6 flex gap-7 absolute right-[5%] top-[70%] text-gray-primary"
+              class="bg-white p-6 flex gap-7 absolute right-[5%] top-[70%] text-gray-primary z-30"
             >
               <li><a href="/"> Academics</a></li>
               <li><a href="/"> Admissions</a></li>
@@ -251,15 +251,22 @@
 
     <main>
       <!-- Hero Section -->
-      <section
-        class="bg-[url(images/campus_spring_scenic-800.webp)] h-[100vh] bg-no-repeat bg-cover bg-[center]"
-      >
-        <div class="px-4 h-full w-full">
+      <section class="relative">
+        <!-- hero image on bg -->
+        <div class="bg-brand-blue">
           <div
-            class="w-full h-full flex flex-col items-center gap-4 text-white text-center"
+            class="bg-[url(images/campus_spring_scenic-800.webp)] h-[115vh] bg-no-repeat bg-cover bg-[center] mix-blend-luminosity opacity-40"
+          ></div>
+        </div>
+
+        <!-- hero text -->
+        <div>
+          <div
+            class="absolute bottom-10 text-white grid justify-center gap-6 lg:justify-end lg:pr-7"
           >
-            <div>
+            <div class="justify-self-center lg:justify-self-end">
               <svg
+                class="w-60"
                 viewBox="0 0 404.204964 510"
                 version="1.1"
                 xmlns="http://www.w3.org/2000/svg"
@@ -367,6 +374,41 @@
                 </g>
               </svg>
             </div>
+            <p
+              class="text-center px-7 lg:w-[40%] lg:text-right lg:justify-self-end lg:px-0"
+            >
+              Notre Dame attracts people willing to take action to find
+              solutions to humanity's most pressing challenges. "What would you
+              fight for?" For us, it's not a question. It's a call to action. We
+              are the Fighting Irish.
+            </p>
+            <a
+              href="/"
+              class="p-4 bg-white text-brand-blue justify-self-center rounded-md flex gap-2 lg:justify-self-end"
+            >
+              What would you fight for?
+              <span class="self-center">
+                <svg
+                  class="w-5"
+                  version="1.1"
+                  id="icon-external-link"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 1600 1000"
+                >
+                  <path
+                    fill="#AE9142"
+                    d="M1362.5,46.9v250c0,41.9-50.7,62.5-80,33.1l-69.7-69.7L737.1,735.9c-18.3,18.3-48,18.3-66.3,0l-44.2-44.2
+                    c-18.3-18.3-18.3-48,0-66.3l475.6-475.6L1032.5,80c-29.4-29.4-8.6-80,33.1-80h250C1341.5,0,1362.5,21,1362.5,46.9z M1032.5,528.9
+                    l-31.2,31.2c-8.8,8.8-13.7,20.7-13.7,33.1V875h-625V250h515.6c12.4,0,24.4-4.9,33.1-13.7l31.2-31.2c29.5-29.5,8.6-80-33.1-80H331.2
+                    c-51.8,0-93.8,42-93.8,93.8v687.5c0,51.8,42,93.8,93.8,93.8h687.5c51.8,0,93.8-42,93.8-93.8V562
+                    C1112.5,520.3,1062,499.4,1032.5,528.9z"
+                  />
+                </svg>
+              </span>
+            </a>
           </div>
         </div>
       </section>
@@ -577,18 +619,18 @@
               <picture>
                 <source
                   media="(min-width: 1600px)"
-                  srcset="images/pillar-research-1600.jpg"
+                  srcset="images/pillar-faith-1600.jpg"
                 />
                 <source
                   media="(min-width: 1200px)"
-                  srcset="images/pillar-research-1200.jpg"
+                  srcset="images/pillar-faith-1200.jpg"
                 />
                 <source
                   media="(min-width: 800px)"
-                  srcset="images/pillar-research-800.jpg"
+                  srcset="images/pillar-faith-800.jpg"
                 />
                 <img
-                  src="images/pillar-research-800.jpg"
+                  src="images/pillar-faith-800.jpg"
                   class="w-full h-full object-cover"
                   alt=""
                 />
@@ -645,18 +687,18 @@
               <picture>
                 <source
                   media="(min-width: 1600px)"
-                  srcset="images/pillar-research-1600.jpg"
+                  srcset="images/pillar-global-1600.jpg"
                 />
                 <source
                   media="(min-width: 1200px)"
-                  srcset="images/pillar-research-1200.jpg"
+                  srcset="images/pillar-global-1200.jpg"
                 />
                 <source
                   media="(min-width: 800px)"
-                  srcset="images/pillar-research-800.jpg"
+                  srcset="images/pillar-global-800.jpg"
                 />
                 <img
-                  src="images/pillar-research-800.jpg"
+                  src="images/pillar-global-800.jpg"
                   class="w-full h-full object-cover"
                   alt=""
                 />
@@ -890,7 +932,7 @@
           <!-- Latest news -->
           <article class="order-1 lg:order-3 mt-12 lg:mt-4">
             <a href="/" class="lg:flex">
-              <div class="flex-1 border-2">
+              <div class="flex-1">
                 <img
                   class="h-full object-cover"
                   src="images/globering_2025.jpg"
@@ -994,7 +1036,7 @@
             <article>
               <a href="/">
                 <div class="">
-                  <img src="images/globering_2025.jpg" alt="" />
+                  <img src="images/2025-sampoorna-800.webp" alt="" />
                 </div>
                 <div class="flex items-center justify-between mt-4 lg:mb-12">
                   <div class="mx-4">
@@ -1038,7 +1080,7 @@
             <article class="my-10 lg:my-0">
               <a href="/">
                 <div class="">
-                  <img src="images/globering_2025.jpg" alt="" />
+                  <img src="images/2024-reasons-to-serve-800.webp" alt="" />
                 </div>
                 <div class="flex items-center justify-between mt-4 lg:mb-12">
                   <div class="mx-4">
@@ -1080,7 +1122,7 @@
             <article>
               <a href="/">
                 <div class="">
-                  <img src="images/globering_2025.jpg" alt="" />
+                  <img src="images/2025-habitat-800.jpg" alt="" />
                 </div>
                 <div class="flex items-center justify-between mt-4 lg:mb-12">
                   <div class="mx-4">
